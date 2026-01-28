@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background-color: rgb(10,10,10) !important;
+  direction: rtl; 
+
+}
+*::selection {
+    background-color:black;
+    color: #ff7b00;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+
+div img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover ;
+}
+div i:hover{
+color:var(--main-color) !important;
+}
+
+.active{
+    color:  white !important;
+     background: var(--main-color) !important;
+     border-radius: 40%;
+}
+
+
+*{
+  font-family: "Tajawal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+:root{
+  --main-color: linear-gradient(100deg, rgb(245,74,0), rgb(245,74,0)); 
+  --black-color:rgb(126, 126, 126);
+}
+.main-background{
+     background: var(--main-color)  !important;
+}
+.main-color{
+     color: #ff7b00 !important;
+}
